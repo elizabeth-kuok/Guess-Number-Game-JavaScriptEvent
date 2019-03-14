@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+h1{
+    color:white;
+    font-size: 8vh;
+    text-align: center;
+    background-color: green;
+   
+}
+body {
+    background: rgba(218, 215, 38, 0.932);
+    font-family: 'Inconsolata', monospace;
+}
+p {
+    color: white;
+    font-size: 5vh;
+}
+.params {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+input[type="text"] {
+    font-family: 'Inconsolata', monospace;
+    font-size: 6vh;
+    padding: 1vh;
+    margin-bottom: 2vh;
+    border: none;
+    text-align: center;
+}
+.buttons {
+    font-size: 5vh;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    transition: all 0.3s;
+}
+.buttons:hover {
+    letter-spacing: 3px;
+    -webkit-box-shadow: 10px 10px 0px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 0px -2px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 0px -2px rgba(0,0,0,0.75);
+}
+#reset-button {
+    background: red;
+    margin: 6px;
+}
+#check-button {
+    background: green;
+    margin: 6px;
+}
+#changeToBlueButton {
+    background: blue;
+    margin: 6px;
+}
+#changeToPinkButton {
+    background: rgb(243, 58, 197);
+    margin: 6px;
+}
+#changeTextToPurple{
+    background: purple;
+    margin: 6px;
+}
+#changeTextToBrown{
+    background: #43261F;
+    margin: 6px;
+}
+
+button:hover {
+    background-color: cyan;
+    cursor: pointer;
+  }

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Guess Number Game - JavaScript</title>
+  
+  
+  
+  <link rel="stylesheet" href="css/style.css">
+  <h1 id="demo" onmouseover="mouseOver()" onmouseout="mouseOut()">Guess Number Game</h1>
+
+  
+</head>
+
+<body>
+
+  <div class="params">
+      
+    <div class="inputs">
+     
+      <input class="text-input" type="text" id="user-offer">
+      <br>
+      <button class="buttons" id="check-button">CHECK</button>
+      <button class="buttons" id="reset-button">RESET</button>
+      <br>
+      <button class="buttons" id="changeToBlueButton" onclick="changedBlue()">Background To Blue</button>
+      <button class="buttons" id="changeTextToPurple" onclick="textPurple()">Text To Purple</button>
+      <br>
+      <button class="buttons" id="changeToPinkButton" onclick="changedPink()">Background To Pink</button>
+      <button class="buttons" id="changeTextToBrown" onclick="textBrown()">Text To Brown</button>
+    </div>
+    
+    <p id="textToPurple">Hey, guess my number! <br>Your previous numbers are below: </p>
+   
+    <p class="dynamic" id="user-guesses"></p>
+    <p class="dynamic" id="user-low-hi-msg"></p>
+    
+  </div>
+  
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
