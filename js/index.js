@@ -121,3 +121,7 @@ function textBrown() {
 
 var GuessNumber = Object.assign({}, Game);
 GuessNumber.initialize();
+
+function isMobileDevice() {
+    return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
+};

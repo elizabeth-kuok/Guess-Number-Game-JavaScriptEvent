@@ -3,7 +3,9 @@ h1{
     color:white;
     font-size: 8vh;
     text-align: center;
-    background-color: green;
+    background-color: #008000;
+    
+    
    
 }
 body {
@@ -13,7 +15,35 @@ body {
 p {
     color: white;
     font-size: 5vh;
+    direction: reverse;
+    animation-duration: 4s;
+    animation-name: fadeIn;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
 }
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  p {
+    text-align: left;
+    color: darkblue; 
+  }
+  
+  @keyframes moveRight {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(400px);
+    }
+  }
 .params {
     position: absolute;
     top: 50%;
